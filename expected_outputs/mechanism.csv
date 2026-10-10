@@ -1,0 +1,9 @@
+﻿component,value
+AI_non_escalated_net,0.026888472420827092
+escalated_case_net,0.005948005683400772
+direct_AI_doctor_net,0.026900941028872114
+baseline_profit_removed,-0.039889950046677176
+subsidy_change,-0.00022167961483764848
+AI_fixed_cost,-0.03
+dPi_total,-0.010374210528414848
+check,-0.010374210528414848
