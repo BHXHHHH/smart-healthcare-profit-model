@@ -1,0 +1,15 @@
+# Generated output from reproduce.py / reproduce_single.py
+output/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
