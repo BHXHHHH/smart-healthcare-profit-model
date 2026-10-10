@@ -1,0 +1,9 @@
+# The reference data in expected_outputs/ is compared byte-for-byte
+# (MD5) against CHECKSUMS.txt. Those files are stored with CRLF line
+# endings and a UTF-8 BOM, so any Git line-ending conversion would
+# silently invalidate every checksum.
+# "-text" disables conversion in both directions. Do not remove.
+
+*.csv   -text
+*.json  -text
+*.txt   -text
