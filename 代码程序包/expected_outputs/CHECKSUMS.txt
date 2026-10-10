@@ -1,0 +1,29 @@
+Reference results
+Generated from the run used in the paper.
+
+MD5 checksums:
+  Kbar_table.csv: 23ba14a25b0979f7cbc0e0187c8c9cb3
+  core_grid.csv: 2d9d10e6273cfe37a0b36a73498725a3
+  core_meta.json: d50d9885a569a10189c9d5cbe6d3232a
+  counterfactual.csv: 82b3033a6ca023166d7c384a055b3668
+  mechanism.csv: 018aa25eb72cde718a1c2cda57f0df73
+  phase_F.csv: 5ebc3a9f23a3ba3f06132273610da688
+  phase_alpha.csv: ea1c2ef2c79250101b4bbf74aaef5e82
+  phase_beta0_gamma03.csv: 691ba1c5ff9aa656ad7325a8111a018a
+  phase_beta0_gamma15.csv: 515e1169568a32b38abafa78fdafd91a
+  phase_e.csv: 3103eaf6baa2ba397d8552396707dc9c
+  phase_gamma_beta04.csv: 1f31f1a8b9af47806eab86bf6efc0b15
+  phase_gamma_beta07.csv: c70bf5251e5f2d97e1605c874946a8e5
+  phase_r.csv: e3817208e05c3a232797d7b5f4295d09
+  robustness.csv: 99acb2e2209315d1a1ec8b264274fb21
+
+Core-grid summary statistics:
+  rows = 10368
+  positive (dPi > 1e-6) = 4062 (39.18%)
+  negative (dPi < -1e-6) = 6306 (60.82%)
+  mean = -0.0062, sd = 0.0280, min = -0.0840, max = 0.0841
+  market states = {'partial': 9911, 'zero': 457}
+
+Reproduction check:
+  Re-running reproduce_single.py in this package regenerated core_grid.csv with the identical MD5 hash,
+  i.e. the results are exactly reproducible.
